@@ -1,1 +1,7 @@
-# investment-strategy
+# Markowitz Portfolio
+
+## Introduction
+
+The stock market has been around for well over 100 years. With an opportunity to increase one's wealth over a period of time by investing in companies' stocks the desire to maximize and minimize reward and risk, respectively, for each individual stock became a priority. The Markowitz model came about in 1952 to assist with stock portfolio optimization. The Markowitz model can diversify and measure reward given assumed risk and thus inform the investor if an investment is a stable investment or too volatile to dive into. This can help prevent a dramatic loss in investment that could occur without the aid of an optimization model. This model will delve into the range of risk parameters, and evaluate the most valuable stock portfolio for the investor based on the most optimal reward point for various levels of risk. 
+
+We have tested the recommended strategy that the Markowitz framework provided by comparing the behavior of four different portfolios with different investment strategies ranging from conservative to aggressive. Jimmy's portfolio is comprised only of foreign currencies, Emma's uses half foreign currencies and half stocks, Avery's contains ten randomly chosen stocks from the S&P 500, and Ryan's contains the top ten stocks of the Dow Jones. Our goal in choosing these combinations was to find the ideal balance of risk and reward, and to determine whether a portfolio with lots of stability and a lower, more dependable return would perform much better, much worse, or similarly to a portfolio with very risky yet lucrative elements.
