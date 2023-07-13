@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{Bibliography.bib} %Import the bibliography file
+\usepackage{matlab-prettifier}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{lipsum}
+
+\title{Problem Formulation}
+\date{March 2023}
+
+\begin{document}
+
+\maketitle
+
+We fix our vector \(\mu\) and seek to optimize the reward via
+\begin{flalign*}
+    \max_{y} \mu * \text{reward} - \text{risk}
+\end{flalign*}
+We do this in such a way: 
+\begin{flalign*}
+    \max_{y} \mu \Big{(} \frac{1}{m} \sum_{i=1}^{m} \Big{(}\sum_{j=1}^{n} \widehat{a_{i_j}}*y_j\Big{)}\Big{)} - \frac{1}{m} \sum_{i=1}^{m} \Big{|}\sum_{j=1}^{n} a_{i_j}*y_j\Big{|}
+\end{flalign*}
+where 
+\begin{flalign*}
+    \text{reward} &=   \frac{1}{m} \sum_{i=1}^{m} \Big{(}\sum_{j=1}^{n} \widehat{a_{i_j}}*y_j\Big{)}\\
+    \\
+    \text{risk or } (b_i) &= \sum_{j=1}^{n} \widehat{a_{i_j}}*y_j
+\end{flalign*}
+  (Note: risk is dependent on strategy)
+and where 
+\begin{align*}
+    \widehat{a_{i_j}} &= a_{i_j}-f_j
+\end{align*}
+and 
+\begin{flalign*}
+    f_j &= \frac{1}{m} \sum_{i=1}^{m} a_{i_j}\\
+    \\
+    \text{Strategy} &= y*\mu
+\end{flalign*}
+
+\end{document}
