@@ -1,5 +1,10 @@
 # Markowitz Portfolio and Game Theory Portfolio
 
+## Author
+Jimmy Sitompul, Emma Dilley, Ryan Kessler, Avery McCrystal
+
+## Institution
+
 ## Introduction
 
 The stock market has been around for well over 100 years. With an opportunity to increase one's wealth over a period of time by investing in companies' stocks the desire to maximize and minimize reward and risk, respectively, for each individual stock became a priority. The Markowitz model came about in 1952 to assist with stock portfolio optimization. The Markowitz model can diversify and measure reward given assumed risk and thus inform the investor if an investment is a stable investment or too volatile to dive into. This can help prevent a dramatic loss in investment that could occur without the aid of an optimization model. This model will delve into the range of risk parameters, and evaluate the most valuable stock portfolio for the investor based on the most optimal reward point for various levels of risk. 
