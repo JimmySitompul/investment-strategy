@@ -1,4 +1,4 @@
-# Markowitz Portfolio
+# Markowitz Portfolio and Game Theory Portfolio
 
 ## Introduction
 
