@@ -2,8 +2,11 @@
 
 ## Author
 Jimmy Sitompul, Emma Dilley, Ryan Kessler, Avery McCrystal
+Acknowledgment: We want to thank Dr. Michael Kirby for assisting us with this project.
 
 ## Institution
+
+Colorado State University, Department of Mathematics
 
 ## Introduction
 
